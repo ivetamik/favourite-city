@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #343b46;
+  text-align: center;
+}
+
+#header {
+  background-image: url("images/hero-img2.jpg");
+  background-size: cover;
+  width: 720px;
+  height: 343px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#title {
+  background: #22668d;
+  font-size: 32px;
+  line-height: 37px;
+  padding: 5px 15px;
+  margin: 115px 0 20px 0;
+  border-radius: 10px;
+}
+
+#subtitle {
+  background: rgb(142, 205, 221, 0.8);
+  font-size: 19px;
+  line-height: 21px;
+  text-shadow: 0px 0px 1px black;
+  padding: 5px 25px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.activity-section {
+  background-color: #fffadd;
+  width: 720px;
+  height: 378px;
+  margin: 0 auto;
+}
+
+.activity-title {
+  margin-top: 0;
+  padding-top: 39px;
+}
+
+.activity-img {
+  width: 100px;
+  height: 100px;
+  margin: 15px auto;
+  border-radius: 50%;
+}
+
+.activity {
+  width: 198px;
+  height: 227px;
+  padding: 5px 25px;
+}
+
+.activity-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iveta {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.guide {
+  width: 350px;
+  height: 210px;
+  margin: 50px auto;
+  padding: 20px 12px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  background: #ffcc70;
+  border-radius: 10px;
+  border-bottom: 6px solid #22668d;
+}
+
+.font {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.guide:hover {
+  background: #fe7a36;
+  color: #fffadd;
+  transition: all 200ms ease;
+}
